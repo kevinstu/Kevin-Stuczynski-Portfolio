@@ -14,8 +14,6 @@ function pickColor() {
 
 
 	var logo = document.getElementById("logo");
-
-
 	logo.style.filter = `hue-rotate(${Math.floor(Math.random() * (360 - 0 + 1) + 0)}deg)`;
 
 }
