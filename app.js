@@ -56,9 +56,3 @@ function logoMove() {
 	}
 }
 
-
-// Projects Button Auto scroll 
-
-// function autoScroll() {
-// 	alert('wiping butt');
-// }
