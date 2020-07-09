@@ -8,7 +8,6 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,6 +23,7 @@ button {
 #hero-section {
   height: 100vh;
   background: #000;
+    overflow-x: hidden; 
 }
 
 #info {
@@ -50,3 +50,5 @@ color: black;
   border-radius: 5px;
   height: 175px;
 }
+
+
