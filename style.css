@@ -5,8 +5,10 @@ html {
 html,
 body {
   color: #fff;
-  margin: 0;
-  /* position: relative; */
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
 
 h1, h2, h3, h4, h5, h6 {
