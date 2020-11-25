@@ -51,8 +51,21 @@ color: black;
   height: 175px;
 }
 
+#about-section {
+  background: #F8F8F8;
+  color: black;
+}
+
+#about-section {
+  background: #F8F8F8;
+  color: black;
+}
+
+#about-section img {
+  width: 450px;
+}
+
 #contact-section {
-  /* height: 100vh; */
   background: #2A4747;
   color: white;
 }
@@ -65,5 +78,4 @@ fill: white;
 
 #contact-section p{
   color: white;
-  /* font-size: 1.15rem; */
   }
