@@ -8,7 +8,7 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
-  <title>Kevin Stuczynski | Web Developer</title>
+  <title>Kevin Stuczynski | Web Content Developer</title>
 </head>
 
 <body>
@@ -17,10 +17,10 @@
     <img id="logo" src="dvd_logo.png" alt="">
     <div id="info" class="d-flex flex-column justify-content-center text-center">
       <h1 class="h1">Kevin Stuczynski</h1>
-      <h1 class="h2 mt-4">Web Developer</h1>
+      <h1 class="h2 mt-4">Web Content Developer</h1>
       <!-- <h1 class="h2 mt-4">Content Coordinator</h1> -->
       <!-- <h1 class="h2 mt-4">Ecommerce Specialist</h1> -->
-      <h1 class="h2 mt-4">Cleveland, OH.</h1>
+      <!-- <h1 class="h2 mt-4">Cleveland, OH.</h1> -->
       <div class="row">
         <div class="col-lg-4 col-10 mx-auto">
           <a href="#projects-section" id="projects-button" class="btn btn-outline-light btn-lg btn-block  mt-5">See
@@ -31,7 +31,7 @@
     </div>
   </section>
 
-  <section id="projects-section" class="pt-5">
+  <section id="projects-section" class="pt-5 pb-5">
     <div class="container">
       <div>
         <h2 class="text-center mt-3">Projects</h2>
@@ -55,11 +55,12 @@
             <div class="text-center mt-3">
               <h5>Transparency Report</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button class="btn btn-outline-secondary">See More</button>
             </div>
           </div>
 
-          <!-- Obtuse Puzzles -->
-
+          <!-- Jiggy Puzzles -->
+          
           <div class="project-card col-lg-3 my-4 mx-3">
             <div class="project-card-image d-flex justify-content-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="75" viewBox="0 0 576 512"
@@ -72,8 +73,31 @@
 
             </div>
             <div class="text-center mt-3">
-              <h5>Obtuse Puzzles</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h5>Jiggy Puzzles</h5>
+              <p>Optimized the JIGGY Puzzles Shopify store for S.E.O.</p>
+              <button class="btn btn-outline-secondary">See More</button>
+            </div>
+          </div>
+
+
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -92,6 +116,7 @@
             <div class="text-center mt-3">
               <h5>Lyft</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button class="btn btn-outline-secondary">See More</button>
             </div>
           </div>
 
@@ -112,6 +137,7 @@
             <div class="text-center mt-3">
               <h5>Streak Counter</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button class="btn btn-outline-secondary">See More</button>
             </div>
           </div>
 
@@ -134,6 +160,7 @@
             <div class="text-center mt-3">
               <h5>Personal Power Hour</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <button class="btn btn-outline-secondary">See More</button>
             </div>
           </div>
 
@@ -154,12 +181,50 @@
           <div class="text-center mt-3">
             <h5>Train Ride</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class="btn btn-outline-secondary">See More</button>
           </div>
         </div>
 
       </div>
     </div>
     </div>
+  </section>
+
+  <section id="contact-section" class="pt-5 pb-5">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="text-center mt-3">Contact</h2>
+        <div id="contact-buttons" class="row justify-content-center">
+          <div class="col-md m-5">
+            <a id="email" href="" target="_blank" class="">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 60">
+                <path d="M42 10.5H6c-1.93 0-3.5 1.57-3.5 3.5v20c0 1.93 1.57 3.5 3.5 3.5h36c1.93 0 3.5-1.57 3.5-3.5V14c0-1.93-1.57-3.5-3.5-3.5zm.5 23.5c0 .28-.22.5-.5.5H6c-.28 0-.5-.22-.5-.5V14c0-.28.22-.5.5-.5h36c.28 0 .5.22.5.5v20z"/>
+                <path d="M39.1 14.8L24 26.13 8.9 14.8a1.5 1.5 0 00-1.8 2.4l16 12a1.498 1.498 0 001.8 0l16-12a1.5 1.5 0 00-1.8-2.4z"/>
+              </svg>
+						<p class="pt-3">KevinStu20@gmail.com</p>
+				    </a>
+          </div>
+          <div class="col-md m-5">
+            <a id="address" href="" target="_blank" class="">
+              <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 1024 1280">
+                <path d="M510.699.009a389.35 389.35 0 00-389.35 389.35c0 182.67 280.332 522.703 365.989 621.987a32.446 32.446 0 0048.993 0c85.982-97.986 366.314-438.019 366.314-621.987A389.35 389.35 0 00510.699.009zm0 940.93C356.58 756.322 186.24 511.679 186.24 389.359a324.459 324.459 0 01651.513 0c0 122.32-170.016 366.963-327.054 551.58z"/>
+                <path d="M510.699 235.241A155.416 155.416 0 10667.412 389.36 155.416 155.416 0 00510.7 235.241zm0 245.94a90.524 90.524 0 1191.822-91.822 90.524 90.524 0 01-91.822 91.822z"/>
+              </svg>         
+						<p class="pt-3">Cleveland, Ohio</p>
+				    </a>
+          </div>
+          <div class="col-md m-5">
+            <a id="phone" href="" target="_blank" class="">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 125">
+                <path style="text-indent:0;text-transform:none;block-progression:tb" d="M12.72 9.002c-1.617.007-3.026.754-4.063 1.781-1.021 1.391-1.685 2.773-1.656 4.125.816 23.913 8.375 43.038 22.03 56.124C42.708 84.135 62.369 91.042 86.939 91c1.58-.22 3.114-.901 4.093-1.844 1.039-1.022 1.837-2.404 1.844-4.031.041-5.696.085-11.401.125-17.093-.046-1.594-.83-2.915-1.875-3.906-1.044-.992-2.44-1.732-4.062-1.72-5.356.022-12.513-1.847-18.282-3.28a2.038 2.038 0 00-1.874.5l-10.125 9.812c-12.32-7.326-17.698-12.55-25.219-24.5l10.063-9.75c.51-.497.722-1.28.53-1.968-1.538-5.76-4.187-13.434-3.75-19.124-.082-1.542-1.408-2.93-2.405-3.688-1.053-.788-2.452-1.449-4.094-1.406H12.72zm0 4H32c.448-.017 1.052.219 1.594.625.484.362.79.804.875.937-.28 6.478 2.036 13.362 3.5 18.562L27.594 43.22c-.655.63-.792 1.729-.312 2.5 8.506 13.787 14.61 19.698 28.78 27.968.747.441 1.782.32 2.407-.281L68.906 63.25c5.54 1.392 12.284 3.18 18.188 3.156.314 0 .863.197 1.281.594.418.396.619.918.625 1.124l-.125 16.969c-.001.257-.195.795-.625 1.219-.43.423-1.048.664-1.437.687-23.757.017-42.221-6.63-55-18.875C19.011 55.86 11.774 37.852 11.001 14.658c.018-.46.334-.754.5-1.031.33-.374.836-.47 1.219-.625z" overflow="visible" color="#000"/>
+              </svg>         
+              <p class="pt-3">440-623-3961</p>
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </section>
 
   <script src="app.js"></script>
