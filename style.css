@@ -70,25 +70,33 @@ button {
   margin: 0 auto;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #2A4747;
 }
 
 .project-block:hover .overlay {
   opacity: 1;
 }
 
-.project-text {
+.project-text h6 {
   color: white;
   font-size: 20px;
 }
 
-#projects-section-1, #projects-section-2 {
-  display: none;
+.project-text p {
+  font-size: 14px;
+  color: white;
+  line-height: 1.5;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-#projects-section-1.active {
-  display: flex;
-}
+
+/* Prokects Modals */
+
+.modal-dialog {
+  max-width: 750px;
+  margin: 0 auto;
+} 
 
 
 /* About */
@@ -107,6 +115,8 @@ button {
   width: 450px;
   margin: 0 auto;
 }
+
+
 
 /* Contact */
 
@@ -130,3 +140,5 @@ fill: white;
 footer {
   background: #2A4747;
 }
+
+
